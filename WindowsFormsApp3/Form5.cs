@@ -54,7 +54,7 @@ namespace WindowsFormsApp3
             }
             /*DateTime secilenTarihSaat = dateTimePicker1.Value;
             DateTime secilenTarih2Saat = dateTimePicker2.Value;*/
-            string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
+            string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 try

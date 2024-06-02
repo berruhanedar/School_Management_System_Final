@@ -20,7 +20,7 @@ namespace WindowsFormsApp3
 
         private void LoadData()
         {
-            string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
+            string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
             MySqlConnection connection = new MySqlConnection(connectionString);
             connection.ConnectionString = connectionString;
             connection.Open();
@@ -63,7 +63,7 @@ namespace WindowsFormsApp3
 
         private bool StudentExists(int studentId)
         {
-            string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
+            string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
@@ -79,7 +79,7 @@ namespace WindowsFormsApp3
 
         private bool ProductExists(int productId)
         {
-            string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
+            string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
@@ -95,7 +95,7 @@ namespace WindowsFormsApp3
 
         private bool CanStudentBuyProduct(int studentId, int productId)
         {
-            string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
+            string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
@@ -112,7 +112,7 @@ namespace WindowsFormsApp3
 
         private void ProcessPurchase(int studentId, int productId)
         {
-            string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
+            string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
@@ -187,6 +187,21 @@ namespace WindowsFormsApp3
             Form18 anaEkran = new Form18();
             this.Hide();
             anaEkran.Show();
+        }
+
+        private void gradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

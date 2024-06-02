@@ -13,7 +13,7 @@ namespace WindowsFormsApp3
 {
     public partial class Form19 : Form
     {
-        private string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
+        private string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
         private MySqlConnection connection;
 
         public Form19()
@@ -154,6 +154,11 @@ namespace WindowsFormsApp3
         }
 
         private void stockTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

@@ -33,6 +33,7 @@
             this.mySqlCommand1 = new MySql.Data.MySqlClient.MySqlCommand();
             this.gradientPanel1 = new WindowsFormsApp3.GradientPanel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -74,7 +75,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.gradientPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -119,6 +119,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1223, 37);
             this.panel2.TabIndex = 84;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(66, 6);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(216, 30);
+            this.label10.TabIndex = 85;
+            this.label10.Text = "STUDENT REGISTRATION";
             // 
             // pictureBox2
             // 
@@ -593,17 +604,6 @@
             this.pictureBox3.Size = new System.Drawing.Size(680, 543);
             this.pictureBox3.TabIndex = 85;
             this.pictureBox3.TabStop = false;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(66, 6);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(216, 30);
-            this.label10.TabIndex = 85;
-            this.label10.Text = "STUDENT REGISTRATION";
             // 
             // Form4
             // 

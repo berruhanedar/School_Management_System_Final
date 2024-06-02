@@ -32,11 +32,11 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.Reporting = new System.Windows.Forms.PictureBox();
             this.gradientPanel1 = new WindowsFormsApp3.GradientPanel();
-            this.gradientPanel2 = new WindowsFormsApp3.GradientPanel();
-            this.rjButton1 = new WindowsFormsApp3.RJButton();
+            this.rjButton4 = new WindowsFormsApp3.RJButton();
             this.rjButton2 = new WindowsFormsApp3.RJButton();
             this.rjButton3 = new WindowsFormsApp3.RJButton();
-            this.rjButton4 = new WindowsFormsApp3.RJButton();
+            this.rjButton1 = new WindowsFormsApp3.RJButton();
+            this.gradientPanel2 = new WindowsFormsApp3.GradientPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -90,33 +90,25 @@
             this.gradientPanel1.TabIndex = 9;
             this.gradientPanel1.TopColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(182)))), ((int)(((byte)(64)))));
             // 
-            // gradientPanel2
+            // rjButton4
             // 
-            this.gradientPanel2.Angle = 0F;
-            this.gradientPanel2.BackColor = System.Drawing.Color.OldLace;
-            this.gradientPanel2.BottomColor = System.Drawing.Color.Empty;
-            this.gradientPanel2.Location = new System.Drawing.Point(-1, -1);
-            this.gradientPanel2.Name = "gradientPanel2";
-            this.gradientPanel2.Size = new System.Drawing.Size(191, 575);
-            this.gradientPanel2.TabIndex = 0;
-            this.gradientPanel2.TopColor = System.Drawing.Color.Empty;
-            // 
-            // rjButton1
-            // 
-            this.rjButton1.BackColor = System.Drawing.Color.OldLace;
-            this.rjButton1.BackgroundColor = System.Drawing.Color.OldLace;
-            this.rjButton1.BorderColor = System.Drawing.Color.OldLace;
-            this.rjButton1.BorderRadius = 20;
-            this.rjButton1.BorderSize = 0;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.ForeColor = System.Drawing.Color.White;
-            this.rjButton1.Location = new System.Drawing.Point(368, 151);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(250, 250);
-            this.rjButton1.TabIndex = 0;
-            this.rjButton1.TextColor = System.Drawing.Color.White;
-            this.rjButton1.UseVisualStyleBackColor = false;
+            this.rjButton4.BackColor = System.Drawing.Color.OldLace;
+            this.rjButton4.BackgroundColor = System.Drawing.Color.OldLace;
+            this.rjButton4.BorderColor = System.Drawing.Color.OldLace;
+            this.rjButton4.BorderRadius = 20;
+            this.rjButton4.BorderSize = 0;
+            this.rjButton4.FlatAppearance.BorderSize = 0;
+            this.rjButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton4.Font = new System.Drawing.Font("Myanmar Text", 7.8F, System.Drawing.FontStyle.Bold);
+            this.rjButton4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(109)))), ((int)(((byte)(40)))));
+            this.rjButton4.Location = new System.Drawing.Point(723, 423);
+            this.rjButton4.Name = "rjButton4";
+            this.rjButton4.Size = new System.Drawing.Size(250, 40);
+            this.rjButton4.TabIndex = 10;
+            this.rjButton4.Text = "ADD NEW PRODUCT";
+            this.rjButton4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rjButton4.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(109)))), ((int)(((byte)(40)))));
+            this.rjButton4.UseVisualStyleBackColor = false;
             // 
             // rjButton2
             // 
@@ -155,25 +147,33 @@
             this.rjButton3.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(109)))), ((int)(((byte)(40)))));
             this.rjButton3.UseVisualStyleBackColor = false;
             // 
-            // rjButton4
+            // rjButton1
             // 
-            this.rjButton4.BackColor = System.Drawing.Color.OldLace;
-            this.rjButton4.BackgroundColor = System.Drawing.Color.OldLace;
-            this.rjButton4.BorderColor = System.Drawing.Color.OldLace;
-            this.rjButton4.BorderRadius = 20;
-            this.rjButton4.BorderSize = 0;
-            this.rjButton4.FlatAppearance.BorderSize = 0;
-            this.rjButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton4.Font = new System.Drawing.Font("Myanmar Text", 7.8F, System.Drawing.FontStyle.Bold);
-            this.rjButton4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(109)))), ((int)(((byte)(40)))));
-            this.rjButton4.Location = new System.Drawing.Point(723, 423);
-            this.rjButton4.Name = "rjButton4";
-            this.rjButton4.Size = new System.Drawing.Size(250, 40);
-            this.rjButton4.TabIndex = 10;
-            this.rjButton4.Text = "ADD NEW PRODUCT";
-            this.rjButton4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rjButton4.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(109)))), ((int)(((byte)(40)))));
-            this.rjButton4.UseVisualStyleBackColor = false;
+            this.rjButton1.BackColor = System.Drawing.Color.OldLace;
+            this.rjButton1.BackgroundColor = System.Drawing.Color.OldLace;
+            this.rjButton1.BorderColor = System.Drawing.Color.OldLace;
+            this.rjButton1.BorderRadius = 20;
+            this.rjButton1.BorderSize = 0;
+            this.rjButton1.FlatAppearance.BorderSize = 0;
+            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton1.ForeColor = System.Drawing.Color.White;
+            this.rjButton1.Location = new System.Drawing.Point(368, 151);
+            this.rjButton1.Name = "rjButton1";
+            this.rjButton1.Size = new System.Drawing.Size(250, 250);
+            this.rjButton1.TabIndex = 0;
+            this.rjButton1.TextColor = System.Drawing.Color.White;
+            this.rjButton1.UseVisualStyleBackColor = false;
+            // 
+            // gradientPanel2
+            // 
+            this.gradientPanel2.Angle = 0F;
+            this.gradientPanel2.BackColor = System.Drawing.Color.OldLace;
+            this.gradientPanel2.BottomColor = System.Drawing.Color.Empty;
+            this.gradientPanel2.Location = new System.Drawing.Point(-1, -1);
+            this.gradientPanel2.Name = "gradientPanel2";
+            this.gradientPanel2.Size = new System.Drawing.Size(191, 575);
+            this.gradientPanel2.TabIndex = 0;
+            this.gradientPanel2.TopColor = System.Drawing.Color.Empty;
             // 
             // pictureBox1
             // 
@@ -194,6 +194,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(458, 601);
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // Form18
             // 

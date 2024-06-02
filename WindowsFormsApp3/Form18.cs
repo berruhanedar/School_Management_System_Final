@@ -37,5 +37,10 @@ namespace WindowsFormsApp3
             this.Hide();
             anaEkran.Show();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -19,7 +19,7 @@ namespace WindowsFormsApp3
 
         private void LoadData(string filter = "")
         {
-            string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
+            string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
@@ -67,6 +67,11 @@ namespace WindowsFormsApp3
         {
             string filter = txtFilter.Text;
             LoadData(filter);
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
