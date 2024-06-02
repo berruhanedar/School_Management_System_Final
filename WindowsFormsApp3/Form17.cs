@@ -20,7 +20,7 @@ namespace WindowsFormsApp3
 
         private void LoadData()
         {
-            string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
+            string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
             MySqlConnection connection = new MySqlConnection(connectionString);
             connection.ConnectionString = connectionString;
             connection.Open();
@@ -39,11 +39,11 @@ namespace WindowsFormsApp3
             {
                 if (!StudentExists(studentId))
                 {
-                    MessageBox.Show("Geçerli bir öğrenci numarası giriniz!", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Please enter a valid student number!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else if (!ProductExists(productId))
                 {
-                    MessageBox.Show("Geçerli bir ürün numarası giriniz!", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Please enter a valid product number!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else if (CanStudentBuyProduct(studentId, productId))
                 {
@@ -51,7 +51,7 @@ namespace WindowsFormsApp3
                 }
                 else
                 {
-                    MessageBox.Show("Bu ürünü satın alamazsınız!", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Permission is not valid. This student cannot buy this product", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
@@ -63,7 +63,7 @@ namespace WindowsFormsApp3
 
         private bool StudentExists(int studentId)
         {
-            string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
+            string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
@@ -79,7 +79,7 @@ namespace WindowsFormsApp3
 
         private bool ProductExists(int productId)
         {
-            string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
+            string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
@@ -95,7 +95,7 @@ namespace WindowsFormsApp3
 
         private bool CanStudentBuyProduct(int studentId, int productId)
         {
-            string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
+            string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
@@ -112,7 +112,7 @@ namespace WindowsFormsApp3
 
         private void ProcessPurchase(int studentId, int productId)
         {
-            string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
+            string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 connection.Open();
@@ -154,11 +154,11 @@ namespace WindowsFormsApp3
                                     }
 
                                     transaction.Commit();
-                                    MessageBox.Show("Satın alma başarılı!", "Başarılı", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                    MessageBox.Show("Purchase Successful!", "Succeed", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 }
                                 else
                                 {
-                                    MessageBox.Show("Yetersiz bakiye!", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    MessageBox.Show("insufficient Funds!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                                 }
                             }
                         }

@@ -56,8 +56,8 @@
             this.progressBar.AnimationSpeed = 500;
             this.progressBar.BackColor = System.Drawing.Color.Transparent;
             this.progressBar.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.progressBar.Font = new System.Drawing.Font("Myanmar Text", 40.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.progressBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.progressBar.Font = new System.Drawing.Font("Myanmar Text", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.progressBar.ForeColor = System.Drawing.Color.White;
             this.progressBar.InnerColor = System.Drawing.Color.Transparent;
             this.progressBar.InnerMargin = 2;
             this.progressBar.InnerWidth = -1;

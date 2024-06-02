@@ -86,7 +86,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(109)))), ((int)(((byte)(40)))));
-            this.button3.Location = new System.Drawing.Point(533, 226);
+            this.button3.Location = new System.Drawing.Point(548, 226);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(272, 73);
             this.button3.TabIndex = 2;

@@ -14,7 +14,7 @@ namespace WindowsFormsApp3
 {
     public partial class Form8 : Form
     {
-        private string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
+        private string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
         public Form8()
         {
             InitializeComponent();
@@ -137,6 +137,11 @@ namespace WindowsFormsApp3
         }
 
         private void Form8_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
 
         }

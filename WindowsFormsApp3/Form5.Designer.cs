@@ -280,7 +280,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(451, 196);
+            this.label2.Location = new System.Drawing.Point(647, 196);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 16);
             this.label2.TabIndex = 61;
@@ -290,7 +290,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(647, 196);
+            this.label4.Location = new System.Drawing.Point(451, 196);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 16);
             this.label4.TabIndex = 63;
@@ -311,7 +311,7 @@
             "6",
             "7",
             "8"});
-            this.TcGrade.Location = new System.Drawing.Point(650, 227);
+            this.TcGrade.Location = new System.Drawing.Point(454, 219);
             this.TcGrade.Name = "TcGrade";
             this.TcGrade.Size = new System.Drawing.Size(167, 38);
             this.TcGrade.TabIndex = 62;
@@ -373,7 +373,7 @@
             "E",
             "F",
             "G"});
-            this.TcLetter.Location = new System.Drawing.Point(454, 227);
+            this.TcLetter.Location = new System.Drawing.Point(650, 219);
             this.TcLetter.Name = "TcLetter";
             this.TcLetter.Size = new System.Drawing.Size(167, 38);
             this.TcLetter.TabIndex = 60;

@@ -65,7 +65,7 @@ namespace WindowsFormsApp3
             }
             /*DateTime secilenTarihSaat = dateTimePicker1.Value;
             DateTime secilenTarih2Saat = dateTimePicker2.Value;*/
-            string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
+            string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 try
@@ -93,14 +93,14 @@ namespace WindowsFormsApp3
 
                     command.ExecuteNonQuery();
 
-                    MessageBox.Show("Kayıt başarıyla eklendi.");
+                    MessageBox.Show("Registration Added Successfully");
                     Form4 anaEkran = new Form4();
                     this.Hide();
                     anaEkran.Show();
                 }
                 catch (Exception ex)
                 {
-                     MessageBox.Show("Kayıt eklenirken bir hata oluştu: " + ex.Message, "Hata", MessageBoxButtons.OK);
+                     MessageBox.Show("An error occurred while adding the registration: " + ex.Message, "Hata", MessageBoxButtons.OK);
                 }
             }
         }
@@ -141,6 +141,11 @@ namespace WindowsFormsApp3
         }
 
         private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
 
         }

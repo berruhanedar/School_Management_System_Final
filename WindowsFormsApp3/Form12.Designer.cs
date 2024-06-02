@@ -75,12 +75,12 @@
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.teachertable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.teachertable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.teachertable.Location = new System.Drawing.Point(293, 151);
+            this.teachertable.Location = new System.Drawing.Point(297, 142);
             this.teachertable.Name = "teachertable";
             this.teachertable.RowHeadersVisible = false;
             this.teachertable.RowHeadersWidth = 51;
             this.teachertable.RowTemplate.Height = 24;
-            this.teachertable.Size = new System.Drawing.Size(563, 403);
+            this.teachertable.Size = new System.Drawing.Size(544, 403);
             this.teachertable.TabIndex = 97;
             // 
             // pictureBox1
@@ -145,6 +145,7 @@
             this.gradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(109)))), ((int)(((byte)(40)))));
             this.gradientPanel1.BottomColor = System.Drawing.Color.Empty;
             this.gradientPanel1.Controls.Add(this.panel2);
+            this.gradientPanel1.Controls.Add(this.teachertable);
             this.gradientPanel1.Controls.Add(this.panel1);
             this.gradientPanel1.Controls.Add(this.pictureBox4);
             this.gradientPanel1.Controls.Add(this.pictureBox3);
@@ -161,7 +162,7 @@
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Location = new System.Drawing.Point(297, 26);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(563, 39);
+            this.panel2.Size = new System.Drawing.Size(548, 39);
             this.panel2.TabIndex = 104;
             // 
             // label33
@@ -170,7 +171,7 @@
             this.label33.BackColor = System.Drawing.Color.Transparent;
             this.label33.Font = new System.Drawing.Font("Myanmar Text", 10.2F, System.Drawing.FontStyle.Bold);
             this.label33.ForeColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(47, 6);
+            this.label33.Location = new System.Drawing.Point(51, 4);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(312, 30);
             this.label33.TabIndex = 100;
@@ -185,7 +186,7 @@
             this.panel1.Controls.Add(this.txtFilter);
             this.panel1.Location = new System.Drawing.Point(297, 53);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(563, 81);
+            this.panel1.Size = new System.Drawing.Size(548, 81);
             this.panel1.TabIndex = 2;
             // 
             // pictureBox4
@@ -216,7 +217,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(1135, 570);
             this.Controls.Add(this.Total);
-            this.Controls.Add(this.teachertable);
             this.Controls.Add(this.gradientPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form12";

@@ -35,6 +35,12 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Reporting = new System.Windows.Forms.PictureBox();
             this.gradientPanel1 = new WindowsFormsApp3.GradientPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.rjButton8 = new WindowsFormsApp3.RJButton();
+            this.rjButton7 = new WindowsFormsApp3.RJButton();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.rjButton6 = new WindowsFormsApp3.RJButton();
+            this.rjButton5 = new WindowsFormsApp3.RJButton();
             this.rjButton4 = new WindowsFormsApp3.RJButton();
             this.rjButton3 = new WindowsFormsApp3.RJButton();
             this.rjButton2 = new WindowsFormsApp3.RJButton();
@@ -42,19 +48,13 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.rjButton5 = new WindowsFormsApp3.RJButton();
-            this.rjButton6 = new WindowsFormsApp3.RJButton();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.rjButton7 = new WindowsFormsApp3.RJButton();
-            this.rjButton8 = new WindowsFormsApp3.RJButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Reporting)).BeginInit();
             this.gradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // ımageList1
@@ -118,6 +118,100 @@
             this.gradientPanel1.Size = new System.Drawing.Size(1034, 578);
             this.gradientPanel1.TabIndex = 9;
             this.gradientPanel1.TopColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(182)))), ((int)(((byte)(64)))));
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.OldLace;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(649, 341);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(144, 144);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // rjButton8
+            // 
+            this.rjButton8.BackColor = System.Drawing.Color.OldLace;
+            this.rjButton8.BackgroundColor = System.Drawing.Color.OldLace;
+            this.rjButton8.BorderColor = System.Drawing.Color.OldLace;
+            this.rjButton8.BorderRadius = 20;
+            this.rjButton8.BorderSize = 0;
+            this.rjButton8.FlatAppearance.BorderSize = 0;
+            this.rjButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton8.ForeColor = System.Drawing.Color.White;
+            this.rjButton8.Location = new System.Drawing.Point(618, 310);
+            this.rjButton8.Name = "rjButton8";
+            this.rjButton8.Size = new System.Drawing.Size(197, 202);
+            this.rjButton8.TabIndex = 14;
+            this.rjButton8.Text = "rjButton8";
+            this.rjButton8.TextColor = System.Drawing.Color.White;
+            this.rjButton8.UseVisualStyleBackColor = false;
+            // 
+            // rjButton7
+            // 
+            this.rjButton7.BackColor = System.Drawing.Color.OldLace;
+            this.rjButton7.BackgroundColor = System.Drawing.Color.OldLace;
+            this.rjButton7.BorderColor = System.Drawing.Color.OldLace;
+            this.rjButton7.BorderRadius = 20;
+            this.rjButton7.BorderSize = 0;
+            this.rjButton7.FlatAppearance.BorderSize = 0;
+            this.rjButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton7.ForeColor = System.Drawing.Color.White;
+            this.rjButton7.Location = new System.Drawing.Point(257, 310);
+            this.rjButton7.Name = "rjButton7";
+            this.rjButton7.Size = new System.Drawing.Size(197, 200);
+            this.rjButton7.TabIndex = 13;
+            this.rjButton7.TextColor = System.Drawing.Color.White;
+            this.rjButton7.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.OldLace;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(644, 70);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(146, 144);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
+            // rjButton6
+            // 
+            this.rjButton6.BackColor = System.Drawing.Color.OldLace;
+            this.rjButton6.BackgroundColor = System.Drawing.Color.OldLace;
+            this.rjButton6.BorderColor = System.Drawing.Color.OldLace;
+            this.rjButton6.BorderRadius = 20;
+            this.rjButton6.BorderSize = 0;
+            this.rjButton6.FlatAppearance.BorderSize = 0;
+            this.rjButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton6.ForeColor = System.Drawing.Color.White;
+            this.rjButton6.Location = new System.Drawing.Point(618, 38);
+            this.rjButton6.Name = "rjButton6";
+            this.rjButton6.Size = new System.Drawing.Size(197, 200);
+            this.rjButton6.TabIndex = 12;
+            this.rjButton6.TextColor = System.Drawing.Color.White;
+            this.rjButton6.UseVisualStyleBackColor = false;
+            // 
+            // rjButton5
+            // 
+            this.rjButton5.BackColor = System.Drawing.Color.OldLace;
+            this.rjButton5.BackgroundColor = System.Drawing.Color.OldLace;
+            this.rjButton5.BorderColor = System.Drawing.Color.OldLace;
+            this.rjButton5.BorderRadius = 20;
+            this.rjButton5.BorderSize = 0;
+            this.rjButton5.FlatAppearance.BorderColor = System.Drawing.Color.OldLace;
+            this.rjButton5.FlatAppearance.BorderSize = 0;
+            this.rjButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton5.ForeColor = System.Drawing.Color.Crimson;
+            this.rjButton5.Location = new System.Drawing.Point(257, 38);
+            this.rjButton5.Name = "rjButton5";
+            this.rjButton5.Size = new System.Drawing.Size(197, 200);
+            this.rjButton5.TabIndex = 2;
+            this.rjButton5.TextColor = System.Drawing.Color.Crimson;
+            this.rjButton5.UseVisualStyleBackColor = false;
             // 
             // rjButton4
             // 
@@ -228,100 +322,6 @@
             this.panel4.Size = new System.Drawing.Size(191, 575);
             this.panel4.TabIndex = 10;
             // 
-            // rjButton5
-            // 
-            this.rjButton5.BackColor = System.Drawing.Color.OldLace;
-            this.rjButton5.BackgroundColor = System.Drawing.Color.OldLace;
-            this.rjButton5.BorderColor = System.Drawing.Color.OldLace;
-            this.rjButton5.BorderRadius = 20;
-            this.rjButton5.BorderSize = 0;
-            this.rjButton5.FlatAppearance.BorderColor = System.Drawing.Color.OldLace;
-            this.rjButton5.FlatAppearance.BorderSize = 0;
-            this.rjButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton5.ForeColor = System.Drawing.Color.Crimson;
-            this.rjButton5.Location = new System.Drawing.Point(257, 38);
-            this.rjButton5.Name = "rjButton5";
-            this.rjButton5.Size = new System.Drawing.Size(197, 200);
-            this.rjButton5.TabIndex = 2;
-            this.rjButton5.TextColor = System.Drawing.Color.Crimson;
-            this.rjButton5.UseVisualStyleBackColor = false;
-            // 
-            // rjButton6
-            // 
-            this.rjButton6.BackColor = System.Drawing.Color.OldLace;
-            this.rjButton6.BackgroundColor = System.Drawing.Color.OldLace;
-            this.rjButton6.BorderColor = System.Drawing.Color.OldLace;
-            this.rjButton6.BorderRadius = 20;
-            this.rjButton6.BorderSize = 0;
-            this.rjButton6.FlatAppearance.BorderSize = 0;
-            this.rjButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton6.ForeColor = System.Drawing.Color.White;
-            this.rjButton6.Location = new System.Drawing.Point(618, 38);
-            this.rjButton6.Name = "rjButton6";
-            this.rjButton6.Size = new System.Drawing.Size(197, 200);
-            this.rjButton6.TabIndex = 12;
-            this.rjButton6.TextColor = System.Drawing.Color.White;
-            this.rjButton6.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.OldLace;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(644, 70);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(146, 144);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // rjButton7
-            // 
-            this.rjButton7.BackColor = System.Drawing.Color.OldLace;
-            this.rjButton7.BackgroundColor = System.Drawing.Color.OldLace;
-            this.rjButton7.BorderColor = System.Drawing.Color.OldLace;
-            this.rjButton7.BorderRadius = 20;
-            this.rjButton7.BorderSize = 0;
-            this.rjButton7.FlatAppearance.BorderSize = 0;
-            this.rjButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton7.ForeColor = System.Drawing.Color.White;
-            this.rjButton7.Location = new System.Drawing.Point(257, 310);
-            this.rjButton7.Name = "rjButton7";
-            this.rjButton7.Size = new System.Drawing.Size(197, 200);
-            this.rjButton7.TabIndex = 13;
-            this.rjButton7.TextColor = System.Drawing.Color.White;
-            this.rjButton7.UseVisualStyleBackColor = false;
-            // 
-            // rjButton8
-            // 
-            this.rjButton8.BackColor = System.Drawing.Color.OldLace;
-            this.rjButton8.BackgroundColor = System.Drawing.Color.OldLace;
-            this.rjButton8.BorderColor = System.Drawing.Color.OldLace;
-            this.rjButton8.BorderRadius = 20;
-            this.rjButton8.BorderSize = 0;
-            this.rjButton8.FlatAppearance.BorderSize = 0;
-            this.rjButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton8.ForeColor = System.Drawing.Color.White;
-            this.rjButton8.Location = new System.Drawing.Point(618, 310);
-            this.rjButton8.Name = "rjButton8";
-            this.rjButton8.Size = new System.Drawing.Size(197, 202);
-            this.rjButton8.TabIndex = 14;
-            this.rjButton8.Text = "rjButton8";
-            this.rjButton8.TextColor = System.Drawing.Color.White;
-            this.rjButton8.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.OldLace;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(649, 341);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(144, 144);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -332,16 +332,16 @@
             this.Controls.Add(this.gradientPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Reporting)).EndInit();
             this.gradientPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

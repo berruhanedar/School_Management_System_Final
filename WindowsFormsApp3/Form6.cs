@@ -14,7 +14,7 @@ namespace WindowsFormsApp3
 {
     public partial class Form6 : Form
     {
-        string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
+        string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
         public Form6()
         {
             InitializeComponent();

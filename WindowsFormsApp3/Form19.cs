@@ -13,7 +13,7 @@ namespace WindowsFormsApp3
 {
     public partial class Form19 : Form
     {
-        private string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
+        private string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
         private MySqlConnection connection;
 
         public Form19()

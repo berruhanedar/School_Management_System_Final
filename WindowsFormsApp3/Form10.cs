@@ -19,7 +19,7 @@ namespace WindowsFormsApp3
         }
         private void LoadData()
         {
-            string connectionString = "server=localhost;user=root;password=Berru3434++;database=usersınfo";
+            string connectionString = "server=localhost;user=root;password=1905Doctorgs;database=usersınfo";
             MySqlConnection connection = new MySqlConnection(connectionString);
             connection.ConnectionString = connectionString;
             connection.Open();

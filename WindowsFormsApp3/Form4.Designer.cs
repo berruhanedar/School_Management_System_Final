@@ -193,9 +193,9 @@
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Myanmar Text", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(961, 227);
+            this.button1.Location = new System.Drawing.Point(958, 246);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 23);
+            this.button1.Size = new System.Drawing.Size(124, 40);
             this.button1.TabIndex = 23;
             this.button1.Text = "Add Photo";
             this.button1.UseVisualStyleBackColor = false;
@@ -235,7 +235,7 @@
             this.Balance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.Balance.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Balance.Font = new System.Drawing.Font("Myanmar Text", 10.2F);
-            this.Balance.ForeColor = System.Drawing.Color.White;
+            this.Balance.ForeColor = System.Drawing.Color.Black;
             this.Balance.Location = new System.Drawing.Point(844, 312);
             this.Balance.Name = "Balance";
             this.Balance.Size = new System.Drawing.Size(167, 32);
@@ -594,6 +594,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(611, 549);
             this.pictureBox4.TabIndex = 86;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox3
             // 
